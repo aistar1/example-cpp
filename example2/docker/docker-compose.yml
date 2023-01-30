@@ -1,0 +1,10 @@
+version: '3'
+services:
+  mydocker:
+    user: root
+    image: test
+    working_dir: /work
+    volumes:
+    - /home/$USER/:/work/
+    ports:
+      - 8000:8000
