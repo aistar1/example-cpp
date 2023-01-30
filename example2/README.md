@@ -15,3 +15,6 @@ cmake ..
 make -j4
 ./test_fmt
 ```
+
+reference
+https://github.com/fmtlib/fmt
